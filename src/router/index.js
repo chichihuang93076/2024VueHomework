@@ -18,7 +18,11 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     { path: '/week1', component: () => import('../views/Week1View.vue') },
-    { path: '/week3', component: () => import('../views/Week3View.vue') }
+    { path: '/week3', component: () => import('../views/Week3View.vue') },
+    { path: '/Day12', component: () => import('../views/Day12View.vue') },
+    { path: '/Day13', component: () => import('../views/Day13View.vue') },
+    { path: '/Day14', component: () => import('../views/Day14View.vue') },
+    { path: '/Day15', component: () => import('../views/Day15View.vue') }
   ]
 })
 
