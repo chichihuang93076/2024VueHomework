@@ -22,7 +22,10 @@ const router = createRouter({
     { path: '/Day12', component: () => import('../views/Day12View.vue') },
     { path: '/Day13', component: () => import('../views/Day13View.vue') },
     { path: '/Day14', component: () => import('../views/Day14View.vue') },
-    { path: '/Day15', component: () => import('../views/Day15View.vue') }
+    { path: '/Day15', component: () => import('../views/Day15View.vue') },
+    { path: '/Day16', component: () => import('../views/Day16View.vue') },
+    { path: '/Day17', component: () => import('../views/Day17View.vue') },
+    { path: '/Day17Signup', component: () => import('../views/SignupView.vue') }
   ]
 })
 
