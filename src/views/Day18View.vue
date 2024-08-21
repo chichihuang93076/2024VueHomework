@@ -1,4 +1,10 @@
 <template>
+  <h2>
+    <a href="https://hackmd.io/pW6au2C5RpaqE4QXG0pdsw" target="_black"
+      >Day18 - todolist 實作篇：新增資料功能</a
+    >
+    <p><a href="https://todolist-api.hexschool.io/doc/#/">TodoList API</a></p>
+  </h2>
   <div id="app">
     <div class="container mt-2">
       <h2>登入</h2>
