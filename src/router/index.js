@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
@@ -27,6 +27,7 @@ const router = createRouter({
     { path: '/Day17', component: () => import('../views/Day17View.vue') },
     { path: '/Day17Signup', component: () => import('../views/SignupView.vue') },
     { path: '/Day18', component: () => import('../views/Day18View.vue') },
+    { path: '/Day19', component: () => import('../views/Day19View.vue') },
     { path: '/todolist', component: () => import('../views/TodoList.vue') }
   ]
 })
